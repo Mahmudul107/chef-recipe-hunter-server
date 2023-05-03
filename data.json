@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "chef_picture": "https://images.unsplash.com/photo-1502364271109-0a9a75a2a9df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "chef_name": "Beth Macdonald",
+      "years_of_experience": 15,
+      "number_of_recipes": 100,
+      "likes": 20000
+    },
+    {
+      "id": 2,
+      "chef_picture": "https://images.unsplash.com/photo-1522701025355-3b334358d451?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=819&q=80",
+      "chef_name": "Sarah Lee",
+      "years_of_experience": 8,
+      "number_of_recipes": 75,
+      "likes": 15000
+    },
+    {
+      "id": 3,
+      "chef_picture": "https://images.unsplash.com/photo-1609053211574-186ad46bb212?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      "chef_name": "Michael Chen",
+      "years_of_experience": 20,
+      "number_of_recipes": 150,
+      "likes": 25000
+    },
+    {
+      "id": 4,
+      "chef_picture": "https://plus.unsplash.com/premium_photo-1661778021952-65997d03b2b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "chef_name": "Johnathan Macedo",
+      "years_of_experience": 12,
+      "number_of_recipes": 90,
+      "likes": 18000
+    },
+    {
+      "id": 5,
+      "chef_picture": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "chef_name": "David Kim",
+      "years_of_experience": 5,
+      "number_of_recipes": 50,
+      "likes": 10000
+    },
+    {
+      "id": 6,
+      "chef_picture": "https://images.unsplash.com/photo-1604551969716-5d6d8f77b241?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "chef_name": "Karen Wong",
+      "years_of_experience": 7,
+      "number_of_recipes": 60,
+      "likes": 12000
+    }
+  ]
+  

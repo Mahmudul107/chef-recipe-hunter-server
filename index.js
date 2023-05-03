@@ -1,17 +1,21 @@
 const express = require('express');
+
+const cors = require('cors');
+
+
 const app = express();
+app.use(cors());
 
-const port = process.env.PORT || 5000;
-
-const chefsData = require('./data/chefsData.json')
+const chefsData = require("./data.json")
 
 app.get('/', (req, res) => {
-    res.send('server is  listening')
+    res.json('Server is running')
 });
-app.get('/chefs', (req, res) => {
-    res.send(chefsData)
-})
 
-app.listen(port, () =>{
-    console.log(`listening on port: ${port}`);
-})
+app.get("/chefsData", (req, res) => {
+    res.send(chefsData);
+});
+
+app.listen(5000, () => {
+    console.log('listening on port 5000');
+});
