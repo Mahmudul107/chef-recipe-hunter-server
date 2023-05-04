@@ -22,7 +22,6 @@ app.get('/recipeDetails', (req, res) => {
 
 app.get('/recipeDetails/:id', (req, res) => {
     const id = req.params.id;
-    console.log(id)
     const selectedRecipe = chefsData.find( n=>n.id == id)
     res.send(selectedRecipe);
 })

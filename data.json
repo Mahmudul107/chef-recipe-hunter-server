@@ -9,7 +9,7 @@
     "bio": "Nobu Matsuhisa is a Japanese celebrity chef and restaurateur known for his fusion cuisine blending traditional Japanese dishes with South American ingredients. He has restaurants in major cities around the world and has published several cookbooks.",
     "recipes": [
       {
-        "name": "Black Cod with Miso",
+        "recipe_name": "Black Cod with Miso",
         "ingredients": [
           "black cod fillets",
           "white miso",
@@ -22,7 +22,7 @@
         "rating": 4.8
       },
       {
-        "name": "Yellowtail Sashimi with Jalapeno",
+        "recipe_name": "Yellowtail Sashimi with Jalapeno",
         "ingredients": [
           "yellowtail",
           "jalapeno",
