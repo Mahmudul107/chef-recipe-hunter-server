@@ -16,6 +16,17 @@ app.get("/chefsData", (req, res) => {
     res.send(chefsData);
 });
 
+app.get('/recipeDetails', (req, res) => {
+    res.send(chefsData);
+});
+
+app.get('/recipeDetails/:id', (req, res) => {
+    const id = req.params.id;
+    console.log(id)
+    const selectedRecipe = chefsData.find( n=>n.id == id)
+    res.send(selectedRecipe);
+})
+
 app.listen(5000, () => {
     console.log('listening on port 5000');
 });

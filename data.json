@@ -1,51 +1,224 @@
 [
-    {
-      "id": 1,
-      "chef_picture": "https://images.unsplash.com/photo-1502364271109-0a9a75a2a9df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      "chef_name": "Beth Macdonald",
-      "years_of_experience": 15,
-      "number_of_recipes": 100,
-      "likes": 20000
-    },
-    {
-      "id": 2,
-      "chef_picture": "https://images.unsplash.com/photo-1522701025355-3b334358d451?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=819&q=80",
-      "chef_name": "Sarah Lee",
-      "years_of_experience": 8,
-      "number_of_recipes": 75,
-      "likes": 15000
-    },
-    {
-      "id": 3,
-      "chef_picture": "https://images.unsplash.com/photo-1609053211574-186ad46bb212?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
-      "chef_name": "Michael Chen",
-      "years_of_experience": 20,
-      "number_of_recipes": 150,
-      "likes": 25000
-    },
-    {
-      "id": 4,
-      "chef_picture": "https://plus.unsplash.com/premium_photo-1661778021952-65997d03b2b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      "chef_name": "Johnathan Macedo",
-      "years_of_experience": 12,
-      "number_of_recipes": 90,
-      "likes": 18000
-    },
-    {
-      "id": 5,
-      "chef_picture": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      "chef_name": "David Kim",
-      "years_of_experience": 5,
-      "number_of_recipes": 50,
-      "likes": 10000
-    },
-    {
-      "id": 6,
-      "chef_picture": "https://images.unsplash.com/photo-1604551969716-5d6d8f77b241?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      "chef_name": "Karen Wong",
-      "years_of_experience": 7,
-      "number_of_recipes": 60,
-      "likes": 12000
-    }
-  ]
-  
+  {
+    "id": 1,
+    "chef_picture": "https://images.unsplash.com/photo-1502364271109-0a9a75a2a9df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "chef_name": "Nobu Matsuhisa",
+    "years_of_experience": 25,
+    "number_of_recipes": 150,
+    "likes": 50000,
+    "bio": "Nobu Matsuhisa is a Japanese celebrity chef and restaurateur known for his fusion cuisine blending traditional Japanese dishes with South American ingredients. He has restaurants in major cities around the world and has published several cookbooks.",
+    "recipes": [
+      {
+        "name": "Black Cod with Miso",
+        "ingredients": [
+          "black cod fillets",
+          "white miso",
+          "mirin",
+          "sake",
+          "sugar",
+          "ginger"
+        ],
+        "cooking_method": "Marinate the black cod in a mixture of white miso, mirin, sake, sugar, and grated ginger for at least two days, then grill or broil until the fish is caramelized and flaky.",
+        "rating": 4.8
+      },
+      {
+        "name": "Yellowtail Sashimi with Jalapeno",
+        "ingredients": [
+          "yellowtail",
+          "jalapeno",
+          "soy sauce",
+          "lime juice",
+          "olive oil",
+          "cilantro"
+        ],
+        "cooking_method": "Thinly slice the yellowtail and arrange on a plate. Top each slice with a thin slice of jalapeno, and drizzle with a mixture of soy sauce, lime juice, and olive oil. Garnish with cilantro.",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "chef_picture": "https://images.unsplash.com/photo-1522701025355-3b334358d451?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=819&q=80",
+    "chef_name": "Hironobu Tsujiguchi",
+    "years_of_experience": 35,
+    "number_of_recipes": 200,
+    "likes": 45000,
+    "bio": "Hironobu Tsujiguchi is a world-renowned pastry chef with over 35 years of experience in the industry. He is known for his innovative techniques and unique flavor combinations, which have earned him numerous awards and accolades. Tsujiguchi has published several cookbooks and has appeared on various cooking shows, where he shares his expertise with viewers around the world.",
+    "recipes": [
+      {
+        "recipe_name": "Matcha Mousse Cake",
+        "ingredients": [
+          "matcha powder",
+          "heavy cream",
+          "eggs",
+          "sugar",
+          "cake flour"
+        ],
+        "cooking_method": "Mix the matcha powder, eggs, and sugar together in a bowl. In a separate bowl, whip the heavy cream until stiff peaks form. Fold the whipped cream into the matcha mixture. Sift the cake flour into the mixture and gently fold until just combined. Pour the batter into a greased cake pan and bake at 350°F for 30-35 minutes. Once the cake has cooled, top with fresh berries and enjoy!",
+        "rating": 4.8
+      },
+      {
+        "recipe_name": "Green Tea and White Chocolate Cookies",
+        "ingredients": [
+          "butter",
+          "white chocolate chips",
+          "flour",
+          "matcha powder",
+          "brown sugar"
+        ],
+        "cooking_method": "Preheat the oven to 375°F. In a large mixing bowl, cream together the butter and brown sugar until light and fluffy. Add the flour and matcha powder and mix until well combined. Fold in the white chocolate chips. Roll the dough into small balls and place on a lined baking sheet. Bake for 10-12 minutes, or until the edges are lightly golden. Let cool for a few minutes before serving.",
+        "rating": 4.5
+      },
+      {
+        "recipe_name": "Black Sesame Ice Cream",
+        "ingredients": [
+          "heavy cream",
+          "milk",
+          "sugar",
+          "black sesame paste",
+          "egg yolks"
+        ],
+        "cooking_method": "In a medium saucepan, heat the heavy cream, milk, and sugar over medium heat until the sugar dissolves. Whisk in the black sesame paste. In a separate bowl, whisk together the egg yolks. Slowly pour the hot cream mixture into the bowl with the egg yolks, whisking constantly. Return the mixture to the saucepan and cook over low heat until it thickens, stirring constantly. Strain the mixture through a fine-mesh sieve and let cool to room temperature. Churn the mixture in an ice cream maker according to the manufacturer's instructions.",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "chef_picture": "https://images.unsplash.com/photo-1609053211574-186ad46bb212?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    "chef_name": "Yoshihiro Murata",
+    "years_of_experience": 40,
+    "number_of_recipes": 300,
+    "likes": 60000,
+    "bio": "Yoshihiro Murata is a Japanese chef with over 40 years of experience in the culinary industry. He is the third generation owner and head chef of the renowned Kikunoi restaurant in Kyoto, which has been awarded three Michelin stars. Murata is also known for his dedication to promoting Japanese cuisine and has authored several books on the subject.",
+    "recipes": [
+      {
+        "recipe_name": "Soba Noodles with Tempura Shrimp",
+        "ingredients": [
+          "soba noodles",
+          "shrimp",
+          "flour",
+          "cornstarch",
+          "water"
+        ],
+        "cooking_method": "Cook the soba noodles according to the package instructions. In a mixing bowl, combine flour, cornstarch, and water to make a batter for the tempura shrimp. Dip the shrimp in the batter and fry in hot oil until golden brown. Serve the soba noodles topped with the tempura shrimp and a drizzle of soy sauce.",
+        "rating": 4.9
+      },
+      {
+        "recipe_name": "Miso Soup with Tofu and Wakame",
+        "ingredients": [
+          "dashi stock",
+          "miso paste",
+          "tofu",
+          "wakame",
+          "green onions"
+        ],
+        "cooking_method": "Heat the dashi stock in a pot until it comes to a boil. In a separate bowl, mix the miso paste with a little bit of hot water to dissolve it. Add the miso mixture to the pot and stir well. Add the tofu and wakame and simmer for a few minutes. Garnish with sliced green onions and serve hot.",
+        "rating": 4.7
+      },
+      {
+        "recipe_name": "Grilled Mackerel with Ponzu Sauce",
+        "ingredients": [
+          "mackerel fillets",
+          "soy sauce",
+          "mirin",
+          "rice vinegar",
+          "citrus juice"
+        ],
+        "cooking_method": "Combine soy sauce, mirin, rice vinegar, and citrus juice to make the ponzu sauce. Marinate the mackerel fillets in the sauce for about 30 minutes. Heat a grill pan over medium-high heat and grill the fillets for a few minutes on each side, until cooked through. Serve with additional ponzu sauce on the side.",
+        "rating": 4.6
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "chef_picture": "https://plus.unsplash.com/premium_photo-1661778021952-65997d03b2b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "chef_name": "Masaharu Morimoto",
+    "years_of_experience": 30,
+    "number_of_recipes": 250,
+    "likes": 55000,
+    "bio": "Masaharu Morimoto is a Japanese chef with over 30 years of experience in the culinary industry. He is best known for his appearances on Iron Chef and for his eponymous restaurants around the world. Morimoto's style of cuisine combines traditional Japanese ingredients and techniques with modern culinary trends.",
+    "recipes": [
+      {
+        "recipe_name": "Sushi Rolls with Tuna and Avocado",
+        "ingredients": [
+          "sushi rice",
+          "nori seaweed",
+          "tuna",
+          "avocado",
+          "wasabi"
+        ],
+        "cooking_method": "Prepare the sushi rice according to the package instructions. Lay a sheet of nori seaweed on a sushi mat, then spread a layer of sushi rice over the nori. Arrange slices of tuna and avocado on top of the rice, then roll the sushi tightly using the mat. Slice the roll into individual pieces and serve with wasabi and soy sauce.",
+        "rating": 4.8
+      },
+      {
+        "recipe_name": "Miso-Glazed Cod",
+        "ingredients": ["cod fillets", "miso paste", "sake", "mirin", "sugar"],
+        "cooking_method": "Preheat the oven to 400 degrees F. In a mixing bowl, combine miso paste, sake, mirin, and sugar to make the miso glaze. Place the cod fillets on a baking sheet and brush the glaze over the top of each fillet. Bake for 10-12 minutes, until the fish is cooked through and the glaze is caramelized. Serve hot.",
+        "rating": 4.7
+      },
+      {
+        "recipe_name": "Beef and Vegetable Stir-Fry",
+        "ingredients": [
+          "beef sirloin",
+          "broccoli",
+          "carrots",
+          "onion",
+          "garlic"
+        ],
+        "cooking_method": "Slice the beef sirloin into thin strips. In a wok or large skillet, heat oil over high heat. Add the sliced onion and garlic and stir-fry for a minute or two until fragrant. Add the beef and stir-fry for a few minutes until browned on all sides. Add the broccoli and carrots and continue to stir-fry until the vegetables are tender-crisp. Serve hot over rice.",
+        "rating": 4.6
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "chef_picture": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "chef_name": "Hirohisa Koyama",
+    "years_of_experience": 20,
+    "number_of_recipes": 180,
+    "likes": 40000,
+    "bio": "Hirohisa Koyama is a renowned Japanese chef known for his innovative and modern take on traditional Japanese cuisine. He is the owner and head chef of Michelin-starred restaurant Atera in New York City.",
+    "recipes": [
+      {
+        "recipe_name": "Sashimi Platter",
+        "ingredients": [
+          "sashimi-grade tuna",
+          "sashimi-grade salmon",
+          "sashimi-grade yellowtail",
+          "wasabi",
+          "soy sauce"
+        ],
+        "cooking_method": "Slice the fish into thin pieces and arrange on a platter. Serve with wasabi and soy sauce.",
+        "rating": 4.8
+      },
+      {
+        "recipe_name": "Miso Soup",
+        "ingredients": [
+          "dashi",
+          "miso paste",
+          "tofu",
+          "green onions",
+          "seaweed"
+        ],
+        "cooking_method": "Heat dashi in a pot and dissolve miso paste. Add cubed tofu and simmer until heated through. Garnish with chopped green onions and seaweed.",
+        "rating": 4.5
+      },
+      {
+        "recipe_name": "Wagyu Steak",
+        "ingredients": ["wagyu steak", "salt", "pepper", "butter", "garlic"],
+        "cooking_method": "Season the steak with salt and pepper. Heat a cast-iron skillet over high heat and add butter and sliced garlic. Sear the steak on both sides until browned and cooked to desired doneness.",
+        "rating": 4.9
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "chef_picture": "https://images.unsplash.com/photo-1604551969716-5d6d8f77b241?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "chef_name": "Karen Wong",
+    "years_of_experience": 7,
+    "number_of_recipes": 60,
+    "likes": 12000,
+    "bio": "Karen Wong is a rising chef in the culinary world. She graduated with a degree in culinary arts from the International Culinary Center and has since worked in several Michelin-starred restaurants. Karen is known for her innovative approach to cooking, often blending unexpected flavors and techniques to create new and exciting dishes. She has also been recognized for her dedication to sustainable and ethical food practices, sourcing ingredients from local farms and producers whenever possible."
+  }
+]
