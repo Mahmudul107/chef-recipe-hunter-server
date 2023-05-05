@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "chef_picture": "https://images.unsplash.com/photo-1502364271109-0a9a75a2a9df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "chef_picture": "https://i.ibb.co/qsSFVh4/Nobu-Intimate-Dinner.webp",
     "chef_name": "Nobu Matsuhisa",
     "years_of_experience": 25,
     "number_of_recipes": 150,
@@ -85,8 +85,8 @@
   },
   {
     "id": 3,
-    "chef_picture": "https://images.unsplash.com/photo-1609053211574-186ad46bb212?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
-    "chef_name": "Yoshihiro Murata",
+    "chef_picture": "https://i.ibb.co/Jc3hc25/nnaka-chef-niki-nakayama.webp",
+    "chef_name": "Niki Nakayama",
     "years_of_experience": 40,
     "number_of_recipes": 300,
     "likes": 60000,
@@ -214,12 +214,12 @@
   },
   {
     "id": 6,
-    "chef_picture": "https://images.unsplash.com/photo-1610345458047-427e9a7762b2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fG1hc2FoYXJ1JTIwbW9yb21vdG98ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    "chef_name": "Masaharu Morimoto",
+    "chef_picture": "https://i.ibb.co/D8hgpMz/Sukiyabashi-Jiro.jpg",
+    "chef_name": "Yoshikazu Ono",
     "years_of_experience": 40,
     "number_of_recipes": 200,
     "likes": 75000,
-    "bio": "Masaharu Morimoto is a world-renowned Japanese chef and restaurateur who is best known for his appearances on the TV show Iron Chef. He owns and operates several restaurants in the United States, Asia, and Europe.",
+    "bio": "Yoshikazu Ono is a world-renowned Japanese chef and restaurateur who is best known for his appearances on the TV show Iron Chef. He owns and operates several restaurants in the United States, Asia, and Europe.",
     "recipes": [
       {
         "recipe_name": "Sushi Rolls",
