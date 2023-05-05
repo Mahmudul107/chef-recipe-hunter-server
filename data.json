@@ -214,11 +214,48 @@
   },
   {
     "id": 6,
-    "chef_picture": "https://images.unsplash.com/photo-1604551969716-5d6d8f77b241?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    "chef_name": "Karen Wong",
-    "years_of_experience": 7,
-    "number_of_recipes": 60,
-    "likes": 12000,
-    "bio": "Karen Wong is a rising chef in the culinary world. She graduated with a degree in culinary arts from the International Culinary Center and has since worked in several Michelin-starred restaurants. Karen is known for her innovative approach to cooking, often blending unexpected flavors and techniques to create new and exciting dishes. She has also been recognized for her dedication to sustainable and ethical food practices, sourcing ingredients from local farms and producers whenever possible."
+    "chef_picture": "https://images.unsplash.com/photo-1610345458047-427e9a7762b2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fG1hc2FoYXJ1JTIwbW9yb21vdG98ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "chef_name": "Masaharu Morimoto",
+    "years_of_experience": 40,
+    "number_of_recipes": 200,
+    "likes": 75000,
+    "bio": "Masaharu Morimoto is a world-renowned Japanese chef and restaurateur who is best known for his appearances on the TV show Iron Chef. He owns and operates several restaurants in the United States, Asia, and Europe.",
+    "recipes": [
+      {
+        "recipe_name": "Sushi Rolls",
+        "ingredients": [
+          "sushi rice",
+          "nori seaweed",
+          "avocado",
+          "cucumber",
+          "crab meat",
+          "wasabi",
+          "soy sauce"
+        ],
+        "cooking_method": "Prepare sushi rice and place on top of nori seaweed. Add sliced avocado, cucumber, and crab meat. Roll the sushi tightly and slice into bite-sized pieces. Serve with wasabi and soy sauce.",
+        "rating": 4.7
+      },
+      {
+        "recipe_name": "Ramen Soup",
+        "ingredients": [
+          "chicken broth",
+          "ramen noodles",
+          "pork belly",
+          "soft-boiled egg",
+          "green onions",
+          "bamboo shoots"
+        ],
+        "cooking_method": "Boil ramen noodles and set aside. Heat chicken broth and add sliced pork belly, soft-boiled egg, green onions, and bamboo shoots. Simmer until heated through. Pour the soup over the ramen noodles and serve.",
+        "rating": 4.3
+      },
+      {
+        "recipe_name": "Tempura Shrimp",
+        "ingredients": ["shrimp", "flour", "cornstarch", "salt", "ice water", "vegetable oil"],
+        "cooking_method": "Mix flour, cornstarch, and salt in a bowl. Gradually add ice water until the batter is smooth. Heat vegetable oil in a deep pan. Dip the shrimp in the batter and fry until golden brown. Serve with soy sauce.",
+        "rating": 4.9
+      }
+    ]
   }
+  
+  
 ]
